@@ -2,33 +2,53 @@
 Display Linux system information `uname -a`
 
 Display kernel release information
-`uname -r`
+```plain
+uname -r
+```{{exec}}
 
 Show which version of Red Hat installed
-`cat /etc/redhat-release`
+```plain
+cat /etc/redhat-release
+```{{exec}}
 
 Show how long the system has been running + load
-`uptime`
+```plain
+uptime
+```{{exec}}
 
 Show system host name
-`hostname`
+```plain
+hostname
+```{{exec}}
 
 Display all local IP addresses of the host.
-`hostname -I`
+```plain
+hostname -I
+```{{exec}}
 
 Show system reboot history
-`last | grep -i rebo`
+```plain
+last | grep -i rebo
+```{{exec}}
 
 Show the current date and time
-`date`
+```plain
+date
+```{{exec}}
 
 Show this month's calendar
-`cal`
+```plain
+cal
+```{{exec}}
 
 Display who is online
-`w`
+```plain
+w
+```{{exec}}
 
 Who you are logged in as
-`whoami`
+```plain
+whoami
+```{{exec}}
 
 <br>
