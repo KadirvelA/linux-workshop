@@ -9,46 +9,28 @@ Interactive process viewer (top alternative)
 htop
 ```{{exec}}
 
-Display processor related statistics
-
-```plain
-mpstat 1
-```{{exec}}
-
 Display virtual memory statistics
 
 ```plain
 vmstat 1
 ```{{exec}}
 
-Display I/O statistics
+Display the last 100 syslog messages  (Use /var/log/messages for RHEL/Centos based systems.)
 
 ```plain
-iostat 1
-```{{exec}}
-
-Display the last 100 syslog messages  (Use /var/log/syslog for Debian based systems.)
-
-```plain
-tail -100 /var/log/messages
-```{{exec}}
-
-Capture and display all packets on interface eth0
-
-```plain
-tcpdump -i eth0
-```{{exec}}
-
-Monitor all traffic on port 80 ( HTTP )
-
-```plain
-tcpdump -i eth0 'port 80'
+tail -100 /var/log/syslog
 ```{{exec}}
 
 List all open files on the system
 
 ```plain
 lsof
+```{{exec}}
+
+List files opened by user
+
+```plain
+lsof /var
 ```{{exec}}
 
 List files opened by user

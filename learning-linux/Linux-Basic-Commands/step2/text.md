@@ -28,17 +28,6 @@ Show info about disks
 fdisk -l
 ```{{exec}}
 
-Show information about Volume Groups
-
-```plain
-vgs
-```{{exec}}
-
-Detailed information about Volume Groups
-
-```plain
-vgdisplay
-```{{exec}}
 
 <br>
 

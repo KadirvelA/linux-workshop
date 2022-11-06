@@ -1,14 +1,12 @@
 
-Display Linux system information `uname -a`
+Display Linux system information 
+```plain
+uname -a`
+```{{exec}}
 
 Display kernel release information
 ```plain
 uname -r
-```{{exec}}
-
-Show which version of Red Hat installed
-```plain
-cat /etc/redhat-release
 ```{{exec}}
 
 Show how long the system has been running + load
