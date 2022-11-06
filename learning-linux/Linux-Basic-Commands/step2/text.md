@@ -1,17 +1,44 @@
 Display messages in kernel ring buffer
-`dmesg`
+
+```plain
+dmesg
+```{{exec}}
+
 Display CPU information
-`cat /proc/cpuinfo`
+
+```plain
+cat /proc/cpuinfo
+```{{exec}}
+
 Display memory information
-`cat /proc/meminfo`
+
+```plain
+cat /proc/meminfo
+```{{exec}}
+
 Display free and used memory ( -h for human readable, -m for MB, -g for GB.)
-`free -h`
+
+```plain
+free -h
+```{{exec}}
+
 Show info about disks
-`fdisk -l`
+
+```plain
+fdisk -l
+```{{exec}}
+
 Show information about Volume Groups
-`vgs`
+
+```plain
+vgs
+```{{exec}}
+
 Detailed information about Volume Groups
-`vgdisplay`
+
+```plain
+vgdisplay
+```{{exec}}
 
 <br>
 
