@@ -28,6 +28,6 @@
     }
   },
   "backend": {
-    "imageid": "centos"
+    "imageid": "centos7"
   }
 }
