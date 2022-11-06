@@ -1,6 +1,6 @@
 {
-  "title": "Linux Files Intro",
-  "description": "Let's learn some basic commands to work with files on a Linux system",
+  "title": "Linux SYSTEM INFORMATION",
+  "description": "Let's learn some basic commands to understand the Linux system",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -8,14 +8,12 @@
     },
     "steps": [
       {
-        "title": "Create an empty file",
-        "text": "step1/text.md",
-        "verify": "step1/verify.sh"
+        "title": "Retrieve System information",
+        "text": "step1/text.md"
       },
       {
-        "title": "Create a file with text",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "title": "Get Hardware Information",
+        "text": "step2/text.md"
       },
       {
         "title": "Delete a file",
