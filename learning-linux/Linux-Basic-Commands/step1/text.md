@@ -1,7 +1,7 @@
 
 Display Linux system information 
 ```plain
-uname -a`
+uname -a
 ```{{exec}}
 
 Display kernel release information
